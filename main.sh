@@ -1,12 +1,12 @@
 #!/bin/bash
 
-if ping6 -c3 facebook.com &>/dev/null; then
-  echo "Your server is ready to set up IPv6 proxies!"
-else
-  echo "Your server can't connect to IPv6 addresses."
-  echo "Please, connect ipv6 interface to your server to continue."
-  exit 1
-fi
+#if ping6 -c3 facebook.com &>/dev/null; then
+#  echo "Your server is ready to set up IPv6 proxies!"
+#else
+#  echo "Your server can't connect to IPv6 addresses."
+#  echo "Please, connect ipv6 interface to your server to continue."
+#  exit 1
+#fi
 
 ####
 echo "↓ Routed /48 or /64 IPv6 prefix from tunnelbroker (*:*:*::/*):"
